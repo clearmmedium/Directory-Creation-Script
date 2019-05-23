@@ -12,7 +12,7 @@ do
 
 echo "Do you want to create Seasons? Y/N"
     read user_input3
-    if [ $user_input3 == "Y" ]
+    if [[ $user_input3 == "Y" || $user_input3 == "y" ]]
     then
         echo "Enter number of seasons"
             read user_input4
